@@ -27,9 +27,11 @@ function App() {
 
   return (
     <div className="App">
+      <h2>Dictionary App</h2>
       <input type='text' value={word1} onChange={(e)=>setword(e.target.value)}></input>
       <button onClick={handlechange}>Search</button>
-      <p>Definition:{mean}</p>
+      <p>Definition:</p>
+      <p>Definition:</p>
     </div>
   );
 }
