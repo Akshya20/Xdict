@@ -31,7 +31,7 @@ function App() {
       <input type='text' value={word1} onChange={(e)=>setword(e.target.value)}></input>
       <button onClick={handlechange}>Search</button>
       <p>Definition:</p>
-      <p>Definition:</p>
+      <p>{mean}</p>
     </div>
   );
 }
